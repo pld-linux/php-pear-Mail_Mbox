@@ -13,7 +13,6 @@ License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	faa11b33d1ac28ca0f6fa96356a03751
-# Source0-size:	5748
 URL:		http://pear.php.net/package/Mail_Mbox/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
