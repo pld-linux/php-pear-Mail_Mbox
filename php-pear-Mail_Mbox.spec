@@ -1,18 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Mail
 %define		_subclass	Mbox
-%define		_status		alpha
+%define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Mbox PHP class to Unix MBOX parsing and using
 Summary(pl):	%{_pearname} - klasa PHP Mbox do analizy i korzystania z uniksowych skrzynek
 Name:		php-pear-%{_pearname}
-Version:	0.2.0
+Version:	0.3.0
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	b2f18237ba389017942d56e5bc3e6e52
+# Source0-md5:	faa11b33d1ac28ca0f6fa96356a03751
 # Source0-size:	5748
 URL:		http://pear.php.net/package/Mail_Mbox/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
