@@ -11,6 +11,7 @@ Version:	0.1.5
 Release:	0.1
 License:	LGPL
 Group:		Development/Languages/PHP
+# Source0-md5:	bb73829b44dbcc663b29c7e4726cc0fd
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
