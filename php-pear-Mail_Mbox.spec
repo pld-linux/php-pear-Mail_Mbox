@@ -5,7 +5,7 @@
 
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - Mbox PHP class to Unix MBOX parsing and using
-Summary(pl):	%{_pearname} -
+Summary(pl):	%{_pearname} - klasa PHP Mbox do analizy i korzystania z unisowych skrzynek
 Name:		php-pear-%{_pearname}
 Version:	0.1.5
 Release:	0.1
@@ -23,11 +23,14 @@ It can split messages inside a Mbox, return the number of messages,
 return, update or remove an specific message or add a message on the
 Mbox.
 
-This class has in PEAR status: %{_status}
+This class has in PEAR status: %{_status}.
 
 %description -l pl
+Ta klasa mo¿e dzieliæ wiadomo¶ci wewn±trz skrzynek w formacie mbox,
+zwracaæ liczbê wiadomo¶ci, zwracaæ, uaktualniaæ lub usuwaæ dan±
+wiadomo¶æ lub dodaæ wiadomo¶æ do skrzynki.
 
-Ta klasa ma w PEAR status: %{_status}
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
