@@ -24,7 +24,7 @@ It can split messages inside a Mbox, return the number of messages,
 return, update or remove an specific message or add a message on the
 Mbox.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Ta klasa mo¿e dzieliæ wiadomo¶ci wewn±trz skrzynek w formacie mbox,
