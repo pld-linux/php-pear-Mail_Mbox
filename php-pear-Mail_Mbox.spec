@@ -9,6 +9,7 @@ Summary(pl):	%{_pearname} - klasa PHP Mbox do analizy i korzystania z uniksowych
 Name:		php-pear-%{_pearname}
 Version:	0.3.0
 Release:	3
+Epoch:		0
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
