@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Mbox PHP class to Unix MBOX parsing and using
-Summary(pl):	%{_pearname} - klasa PHP Mbox do analizy i korzystania z uniksowych skrzynek
+Summary(pl.UTF-8):   %{_pearname} - klasa PHP Mbox do analizy i korzystania z uniksowych skrzynek
 Name:		php-pear-%{_pearname}
 Version:	0.5.1
 Release:	1
@@ -28,16 +28,16 @@ Mbox.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ta klasa mo¿e dzieliæ wiadomo¶ci wewn±trz skrzynek w formacie mbox,
-zwracaæ liczbê wiadomo¶ci, zwracaæ, uaktualniaæ lub usuwaæ dan±
-wiadomo¶æ lub dodaæ wiadomo¶æ do skrzynki.
+%description -l pl.UTF-8
+Ta klasa moÅ¼e dzieliÄ‡ wiadomoÅ›ci wewnÄ…trz skrzynek w formacie mbox,
+zwracaÄ‡ liczbÄ™ wiadomoÅ›ci, zwracaÄ‡, uaktualniaÄ‡ lub usuwaÄ‡ danÄ…
+wiadomoÅ›Ä‡ lub dodaÄ‡ wiadomoÅ›Ä‡ do skrzynki.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -46,7 +46,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
