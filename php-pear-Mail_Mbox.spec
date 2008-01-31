@@ -8,7 +8,7 @@ Summary:	%{_pearname} - Mbox PHP class to Unix MBOX parsing and using
 Summary(pl.UTF-8):	%{_pearname} - klasa PHP Mbox do analizy i korzystania z uniksowych skrzynek
 Name:		php-pear-%{_pearname}
 Version:	0.5.1
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
