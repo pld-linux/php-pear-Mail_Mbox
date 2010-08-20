@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - Mbox PHP class to Unix MBOX parsing and using
 Summary(pl.UTF-8):	%{_pearname} - klasa PHP Mbox do analizy i korzystania z uniksowych skrzynek
 Name:		php-pear-%{_pearname}
-Version:	0.5.1
-Release:	2
+Version:	0.6.3
+Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	ff801fd467812241a6225594ad17a3ce
+# Source0-md5:	e65b8828d2c49b14fe17de33b30589b1
 URL:		http://pear.php.net/package/Mail_Mbox/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -40,8 +40,8 @@ Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
-AutoReq:	no
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
