@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Mail
 %define		_subclass	Mbox
 %define		_status		beta
